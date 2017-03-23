@@ -17,14 +17,14 @@ import ncu.bahuang.chan.R;
  * Website: http://linyuange.site
  */
 
-public class FirstFragment extends Fragment {
+public class DashboardFragment extends Fragment {
 
     private static final String BUNDLE_KEY_POSITION = "position";
 
-    public static FirstFragment newInstance(int position) {
+    public static DashboardFragment newInstance(int position) {
         Bundle args = new Bundle();
         args.putInt(BUNDLE_KEY_POSITION, position);
-        FirstFragment fragment = new FirstFragment();
+        DashboardFragment fragment = new DashboardFragment();
         fragment.setArguments(args);
         return fragment;
     }
